@@ -1,0 +1,16 @@
+<div class="login_component">
+
+  <h3>Log in form</h3>
+
+
+  <div class="container">
+
+    <form #signinForm="ngForm" (ngSubmit)="submitForm(signinForm)">
+      <input type="text" name="user_name" placeholder="User Name" ngModel>
+      <input type="password" name="password" placeholder="Password" ngModel>
+      <input type="submit" value="login">
+    </form>
+
+  </div>
+
+</div>

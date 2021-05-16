@@ -1,0 +1,15 @@
+<div class="confirm_component">
+
+  <h3>Confirm Form</h3>
+
+
+  <div class="container">
+
+    <form #confirForm="ngForm" (ngSubmit)="submitForm(confirForm)">
+      <input type="text" name="confirm_code" placeholder="Email Confirm Code" ngModel>
+      <input type="submit" value="Submit">
+    </form>
+
+  </div>
+
+</div>
